@@ -44,3 +44,8 @@ Datasets
 
 <img width="547" height="163" alt="image" src="https://github.com/user-attachments/assets/274dfdfc-5db8-411c-bf95-04d53fcc0363" />
 
+Results
+
+The model is evaluated using standard image captioning metrics:
+
+<img width="392" height="113" alt="image" src="https://github.com/user-attachments/assets/9ad995c3-c776-4f27-9eba-11e512733d23" />
