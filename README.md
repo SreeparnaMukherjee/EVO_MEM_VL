@@ -48,4 +48,5 @@ Results
 
 The model is evaluated using standard image captioning metrics:
 
-<img width="392" height="113" alt="image" src="https://github.com/user-attachments/assets/9ad995c3-c776-4f27-9eba-11e512733d23" />
+<img width="469" height="126" alt="image" src="https://github.com/user-attachments/assets/37652213-7e13-4365-8e2f-e526228f7a73" />
+
