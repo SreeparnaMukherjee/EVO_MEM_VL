@@ -1,27 +1,12 @@
-#Evolutionary Memory Model for Satellite Image Captioning
+# Evolutionary Memory Model for Satellite Image Captioning
 Overview:
+
 This project implements a novel deep learning architecture for automatic satellite image captioning that combines episodic memory with evolutionary computation. The model ingests time-based streams of remote sensing imagery and generates natural language descriptions by learning what to remember, what to forget, and how to evolve its memory population over time.
 
 Architecture:
 
-Input Stream of Satellite Images (time-based data)
-              ↓
-  Vision Transformer Encoder (ViT)
-              ↓
-       Feature Embeddings
-              ↓
-    Episodic Memory Bank (EMB)
-      ↙           ↓          ↘
-Memory Write  Memory Read  Memory Rewrite
-                  ↓
-      Evolutionary Selector
-    (mutation + selection of memory)
-              ↓
-  Memory-Augmented Decoder (Transformer)
-              ↓
-   Adaptive Semantic Beam Search
-              ↓
-        Caption Output
+<img width="273" height="256" alt="image" src="https://github.com/user-attachments/assets/29d81eb5-eeb4-4863-9735-079c8f8b47bf" />
+
 
 Component Breakdown:
 Vision Transformer Encoder (ViT)
@@ -56,5 +41,6 @@ Diversity penalty that discourages beams from repeating high-frequency tokens, p
 
 
 Datasets
+
 <img width="547" height="163" alt="image" src="https://github.com/user-attachments/assets/274dfdfc-5db8-411c-bf95-04d53fcc0363" />
 
