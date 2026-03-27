@@ -8,6 +8,7 @@ Architecture:
 <img width="273" height="256" alt="image" src="https://github.com/user-attachments/assets/29d81eb5-eeb4-4863-9735-079c8f8b47bf" />
 
 
+
 Component Breakdown:
 
 Vision Transformer Encoder (ViT)
@@ -44,6 +45,7 @@ Diversity penalty that discourages beams from repeating high-frequency tokens, p
 Datasets
 
 <img width="547" height="163" alt="image" src="https://github.com/user-attachments/assets/274dfdfc-5db8-411c-bf95-04d53fcc0363" />
+
 
 Results
 
