@@ -64,7 +64,10 @@ Length penalty to prevent short degenerate outputs
 Diversity penalty that discourages beams from repeating high-frequency tokens, producing more varied and semantically rich captions
 
 
- Output
-Training vs Validation Loss Graph
-Final prediction visualization of temporal image stream
-Caption-style prediction for detected theme
+Output:
+
+-Training vs Validation Loss Graph
+
+-Final prediction visualization of temporal image stream
+
+-Caption-style prediction for detected theme
