@@ -1,5 +1,5 @@
 # Evolutionary Memory Model for Satellite Image Captioning
-##Overview:
+## Overview:
 
 EVO_MEM_VL (Evolution Memory Vision Learning) is a deep learning project that integrates Vision Transformers (ViT) with a novel evolutionary episodic memory mechanism to improve classification of temporal satellite imagery.
 
@@ -10,7 +10,7 @@ Architecture:
 
 
 
-Key Features:
+## Key Features:
 
 -Episodic Memory Bank (EMB)
 Stores learned feature embeddings dynamically during training.
@@ -31,7 +31,7 @@ Sentinel-2 (temporal evolution)
 Combines current features with retrieved memory embeddings for better predictions.
 
 
-Component Breakdown:
+## Component Breakdown:
 
 Vision Transformer Encoder (ViT)
 Splits each satellite image into 16×16 patches and encodes them into dense feature embeddings using a pretrained ViT-Base/16 backbone. The last two transformer blocks are fine-tuned while the rest of the backbone is frozen to preserve pretrained spatial representations.
@@ -64,7 +64,7 @@ Length penalty to prevent short degenerate outputs
 Diversity penalty that discourages beams from repeating high-frequency tokens, producing more varied and semantically rich captions
 
 
-Output:
+## Output:
 
 -Training vs Validation Loss Graph
 
