@@ -23,9 +23,9 @@ Extracts high-level image representations using pretrained transformer architect
 
 -Temporal Satellite Data Simulation
 Mimics real-world datasets like:
-NWPU (categorical classification)
-RSICD (caption-based understanding)
-Sentinel-2 (temporal evolution)
+NWPU (categorical classifications)
+RSICD (caption-based understandings)
+Sentinel-2 (temporal evolutions)
 
 -Memory-Augmented Classification
 Combines current features with retrieved memory embeddings for better predictions.
