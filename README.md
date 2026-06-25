@@ -12,13 +12,13 @@ Architecture:
 
 ## Key Features:
 
--Episodic Memory Bank (EMB)
+-Episodic Memory Bank (EMB):
 Stores learned feature embeddings dynamically during training.
 
--Evolutionary Memory Selection
+-Evolutionary Memory Selection:
 Uses similarity-based retrieval + mutation to evolve useful past knowledge.
 
--Vision Transformer Encoder (ViT)
+-Vision Transformer Encoder (ViT):
 Extracts high-level image representations using pretrained transformer architecture.
 
 -Temporal Satellite Data Simulation
